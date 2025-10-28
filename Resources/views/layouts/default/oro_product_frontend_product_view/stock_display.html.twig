@@ -1,0 +1,11 @@
+{% block _product_stock_display_widget %}
+    <div{{ block('block_attributes') }}>
+        {{ block_widget(block) }}
+    </div>
+{% endblock %}
+
+{% block _product_stock_message_widget %}
+    <div{{ block('block_attributes') }}>
+        <strong>{{ text }}</strong>
+    </div>
+{% endblock %}

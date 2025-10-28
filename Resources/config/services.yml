@@ -1,0 +1,16 @@
+services:
+    _defaults:
+        autowire: false
+        autoconfigure: true
+        public: false
+
+    # Stock Data Provider
+    acme_stock_display.layout.data_provider.stock:
+        class: Acme\Bundle\StockDisplayBundle\Layout\DataProvider\StockProvider
+        public: true
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@oro_inventory.inventory.low_inventory_provider'
+            - '@oro_inventory.provider.inventory_status'
+        tags:
+            - { name: layout.data_provider, alias: stock_provider }

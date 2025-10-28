@@ -1,0 +1,17 @@
+layout:
+    actions:
+        - '@add':
+            id: product_stock_display
+            parentId: product_view_primary_container
+            blockType: container
+            options:
+                attr:
+                    class: product-stock-display
+        
+        - '@add':
+            id: product_stock_message
+            parentId: product_stock_display
+            blockType: text
+            options:
+                text: '=data["stock_provider"].getStockMessage(data["product"])'
+                visible: '=true'
