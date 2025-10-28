@@ -39,8 +39,10 @@ The configuration is entirely predefined, and you can only change the domain nam
 
 Modify the compose.yaml file to configure bind mounts
 in the volumes section:
+```bash
 volumes:
       - ./oro:/var/www/oro
+```
 
 Run init service:
 ```bash
@@ -382,6 +384,6 @@ StockDisplayBundle/
 
 ## Related Documentation
 
-- [OroCommerce Inventory System](https://doc.oroinc.com/backend/bundles_docs/commerce/InventoryBundle/)
-- [OroCommerce Layout System](https://doc.oroinc.com/backend/bundles_docs/platform/LayoutBundle/)
-- [Extending OroCommerce](https://doc.oroinc.com/backend/bundles_docs/commerce/)
+- [OroCommerce Inventory System](https://doc.oroinc.com/user/back-office/inventory/)
+- [OroCommerce Layout System](https://doc.oroinc.com/frontend/storefront/layouts/#dev-doc-frontend-layouts-layout)
+- [Extending OroCommerce](https://doc.oroinc.com/backend/extend-commerce/#dev-extend-commerce)
