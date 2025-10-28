@@ -12,6 +12,9 @@ The **Acme Stock Display Bundle** is a custom OroCommerce module that displays p
 - **Low Inventory Detection**: Integration with OroCommerce's low inventory provider
 - **Graceful Error Handling**: Safe extraction of product entities from various wrapper objects
 
+![demo-91514](https://github.com/user-attachments/assets/f8700495-487e-4070-aef9-5bf4a49817d3)
+![demo-191554](https://github.com/user-attachments/assets/e0221afe-7132-4e0c-b7fd-2e6a5a0f5fed)
+
 ## Prerequisites
 
 Install [Docker](https://docs.docker.com/engine/install/) with [Docker Compose](https://docs.docker.com/compose/install/).
